@@ -4,6 +4,6 @@ python:
 install:
  - "pip install coveralls"
 script:
- coverage run --source=unittest
+ coverage run --source=pytest
 after_success:
  coveralls
