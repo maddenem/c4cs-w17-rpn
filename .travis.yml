@@ -2,8 +2,8 @@ language: python
 python: 
  - "3.5"
 install:
- - "pip install coveralls"
+ - "pip install python-coveralls"
 script:
- coverage run --source=python3 -m unittest
+ coverage run --source=pytest python3 -m unittest
 after_success:
  coveralls
