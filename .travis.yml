@@ -2,7 +2,7 @@ language: python3
 python: 
  - "3.5"
 install:
- - "pip3 install python-coveralls"
+ - "pip3 install python3-coveralls"
 script:
  coverage run -m unittest
 after_success:
